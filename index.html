@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Gestion du temps</title>
+</head>
+<body>
+    <!-- horloge -->
+    <div align="center">
+        <p class="montre">Horloge</p>
+        <div id="horloge"></div>
+        <div id="jour"></div>
+    </div>
+    <!-- compte à rebours -->
+    <div align="center">
+        <p class="montre">Compte à rebours</p>
+        <div id="minuteur"></div>
+        <div id="jour"></div>
+    </div>
+    
+
+
+
+    <!-- <script>
+
+function afficherLaDate(){
+
+    let myDate = new Date();
+    let jourSemaine = myDate.getDay();
+    let jour = myDate.getDate();
+    let mois = myDate.getMonth();
+    let annee = myDate.getFullYear();
+
+    let tableauJours = ["Dimanche", "Lundi", "Mardi", "Mercredi", "jeudi", "Jendredi", "Samedi"];
+    jourSemaine = tableauJours[jourSemaine];
+
+    let tableauMois = ["Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Decemebre"];
+    mois = tableauMois[mois];
+
+    let afficheJour = jourSemaine +" " +jour +" " +mois +" " +annee;
+
+    document.getElementById("jour").innerHTML = afficheJour;
+
+    console.log(afficheJour);
+}
+
+    </script> -->
+</body>
+</html>

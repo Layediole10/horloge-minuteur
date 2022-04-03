@@ -1,0 +1,16 @@
+.montre{
+
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#horloge, #minuteur{
+
+    font-size: 3rem;
+    border: 0px solid grey;
+    box-shadow: 3px 2px 2px grey;
+    width: 250px;
+    background-color: antiquewhite;
+}
+
